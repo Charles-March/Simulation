@@ -6,6 +6,8 @@ public class Chien extends £Vivant
 	
 	public Chien(int px,int py, int pv)
 	{
-		super(px,py,pv);
+		x = px;
+		y =py;
+		vie = pv;
 	}
 }
