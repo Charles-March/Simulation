@@ -1,6 +1,6 @@
 package engine;
 
-public class Chien extends £Vivant implements Runnable
+public class Chien extends £Vivant
 {
 	boolean handicape;
 	private boolean faim;
@@ -27,5 +27,8 @@ public class Chien extends £Vivant implements Runnable
 	public void setFaim(boolean faim) {
 		this.faim = faim;
 	}
+
+
+
 	
 }
