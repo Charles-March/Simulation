@@ -10,7 +10,7 @@ public class main
 		// TODO Auto-generated method stub
 		Chien[] T = new Chien[5];
 		
-		for(int i = 0; i<= 5; i++)
+		for(int i = 0; i<= 4; i++)
 		{
 			T[i] = new Chien(i+2,i+5,i,i%2==0,i%3==1);
 			T[i].faire_tour();
