@@ -33,7 +33,7 @@ public class Chien extends £Vivant
 	public void faire_tour()
 	{
 		if (handicape && faim)
-			vie = vie-2;
+			vie -= 2;
 		else if (handicape || faim)
 			vie --;	
 	}
