@@ -1,6 +1,6 @@
 package engine;
 
-public class Chien extends £Vivant
+public class Chien extends £Vivant implements Runnable
 {
 	boolean handicape;
 	private boolean faim;
@@ -16,13 +16,16 @@ public class Chien extends £Vivant
 	{
 		x = px;
 		y = py;
-		faim = pfaim;
+		setFaim(pfaim);
 		handicape = phandicape;
 	}
-	
-	public boolean envoie_faim()
-	{
+
+	public boolean isFaim() {
 		return faim;
+	}
+
+	public void setFaim(boolean faim) {
+		this.faim = faim;
 	}
 	
 }
