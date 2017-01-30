@@ -20,5 +20,9 @@ public class Chien extends £Vivant
 		handicape = phandicape;
 	}
 	
+	public boolean envoie_faim()
+	{
+		return faim;
+	}
 	
 }
