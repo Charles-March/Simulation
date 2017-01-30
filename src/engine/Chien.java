@@ -20,12 +20,22 @@ public class Chien extends £Vivant
 		handicape = phandicape;
 	}
 
-	public boolean isFaim() {
+	public boolean isFaim() 
+	{
 		return faim;
 	}
 
-	public void setFaim(boolean faim) {
+	public void setFaim(boolean faim) 
+	{
 		this.faim = faim;
+	}
+	
+	public void faire_tour()
+	{
+		if (handicape && faim)
+			vie = vie-2;
+		else if (handicape || faim)
+			vie --;	
 	}
 
 
