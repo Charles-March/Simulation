@@ -1,5 +1,6 @@
 package engine;
 
-public class Chien {
-
+public class Chien extends £Vivant
+{
+	
 }
