@@ -2,8 +2,15 @@ package engine;
 
 public abstract class £Objets 
 {
-	int x,y;
-	int vie;
-	boolean est_en_feu;
+	protected int x,y;
+	protected int vie;
+	protected boolean est_en_feu;
+	
+	public £Objets(int px,int py, int pv)
+	{
+		x = px;
+		y =py;
+		vie = pv;
+	}
 	
 }
