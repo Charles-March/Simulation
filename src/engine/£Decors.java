@@ -1,5 +1,5 @@
 package engine;
 
-public class Action {
+public class £Decors {
 
 }

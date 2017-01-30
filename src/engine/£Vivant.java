@@ -1,5 +1,5 @@
 package engine;
 
-public class Vivant {
+public class £Vivant {
 
 }
