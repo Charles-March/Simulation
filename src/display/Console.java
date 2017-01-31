@@ -7,7 +7,7 @@ public class Console
 	{
 		if (o instanceof Chien)
 		{
-			System.out.println("Position : " + o.get_x() +" " + o.get_y() + "\n Vie : " + o.get_vie()+"\n");
+			System.out.println("Position : " + o.get_X() +" " + o.get_y() + "\n Vie : " + o.get_vie()+"\n");
 		}
 	}
 }

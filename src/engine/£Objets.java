@@ -6,7 +6,7 @@ public abstract class £Objets
 	protected int vie;
 	protected boolean est_en_feu;
 	
-	public int get_x()
+	public int get_X()
 	{
 		return x;
 	}
